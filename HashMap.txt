@@ -1,0 +1,25 @@
+package demo;
+import java.util.*;
+public class hello {
+	public static void main(String[] args) {
+		
+		HashMap<String,Integer> set=new HashMap<>();
+		
+		set.put("vishek",2);
+		set.put("satyam",5);
+		set.put("depu",6);
+		set.put("sattu",8);
+		
+		System.out.println(set);
+		
+		if(set.containsKey(set)) {
+			System.out.println("is present");
+		}
+		System.out.println(set.get("sattu"));
+		for(Map.Entry<String,Integer> e: set.entrySet()) {
+			System.out.println(e.getKey());
+			System.out.println(e.getValue());
+		}
+	}
+}
+
