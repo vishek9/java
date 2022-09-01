@@ -1,0 +1,26 @@
+package demo;
+import java.util.*;
+public class hello {
+	public static void main(String[] args) {
+		
+		HashSet<Integer> set=new HashSet<Integer>();
+		
+		set.add(1);
+		set.add(2);
+		set.add(3);
+		set.add(4);
+		set.remove(4);
+		Iterator it=set.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
+		if(set.contains(1)) {
+			System.out.println("yes set contains 1");
+		}
+		
+		
+		
+	}
+}
+
