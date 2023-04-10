@@ -1,0 +1,18 @@
+package vishek;
+
+public class welcome {
+	String name;
+	int id;
+public welcome(String n,int m){
+	name=n;
+	id=m;}
+
+	public static void main(String[] args) {
+		welcome run=new welcome("vishek", 21);
+		welcome run1=new welcome("shobhit", 27);
+		System.out.println(run1.name +" "+ run1.id );
+		System.out.println(run.name +" "+ run.id );
+
+	}
+
+}
